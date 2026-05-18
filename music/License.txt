@@ -1,0 +1,8 @@
+• fireworks_se.mp3 — フリー効果音素材「発火」 by T.Waraya
+          <br>• ag1_gameover.mp3 — フリー効果音素材「雑魚銃」 by 稿屋 隆
+          <br>• ag1_jump.mp3 — フリー効果音素材「レトロアクション」 by 稿屋 隆
+          <br>• ag1_main.mp3 — フリーBGM素材「Ghost In The Airwave」 by MFP【Marron Fields Production】
+          <br>• ag2_main.mp3 — フリーBGM素材「時事の扉」 by まんぼう二等兵
+          <br>• ag2_alert.mp3 — Correct Choice Sound Effect by freesound_community from Pixabay
+          <br>• ag3_main.mp3 — フリーBGM素材「いつもどおりの穏やかな日常」 by じゅんいちろう
+          <br>• main_bgm.mp3 — Aeon by Jeff Kaale (Uppbeat) [License: TV229H8RLR5LZWC9]

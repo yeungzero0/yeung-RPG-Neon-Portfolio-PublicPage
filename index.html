@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yeung Hang - Neon Portfolio</title>
+  <link rel="icon" href="data:,">
+  <script type="module" crossorigin src="/yeung_rpg_neon_portfolio/assets/index-DcuHOgke.js"></script>
+  <link rel="stylesheet" crossorigin href="/yeung_rpg_neon_portfolio/assets/index-Dx8iC05Y.css">
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <div id="ui">🐥 WASD 移動 • 滑鼠拖拉視角</br> • 靠近物件按 *Space* 互動</br> • *M* BGM開/關</br> • +/- 更變音量</div>
+
+  <!-- CV 面板 -->
+  <div id="cv-panel" class="panel">
+    <div class="close-btn" id="close-cv">✕</div>
+    <div class="panel-header">📚 YEUNG HANG (JACK) - PORTFOLIO</div>
+    <div id="cv-content"></div>
+  </div>
+
+  <!-- Skills 面板（書架） -->
+  <div id="skills-panel" class="panel">
+    <div class="close-btn" id="close-skills">✕</div>
+    <div class="panel-header" style="font-size:32px; color:#ffff00; text-shadow:0 0 25px #ffff00; letter-spacing:3px;">💾 SAVE POINT</div>
+    <div id="skills-content"></div>
+  </div>
+
+    <!-- Gallery 面板（畫廊） -->
+  <div id="gallery-panel" class="panel">
+    <div class="close-btn" id="close-gallery">✕</div>
+    <div class="panel-header">🖼️ PROJECT GALLERY</div>
+    <div id="gallery-content" 
+     style="display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+            gap: 24px; 
+            max-width: 1100px; 
+            margin: 0 auto; 
+            padding: 10px;">
+    </div>
+  </div>
+
+  <!-- Project Detail 子頁面（輪播 + LINK） -->
+  <div id="project-detail-panel" class="panel">
+    <div class="close-btn" id="close-project-detail">✕</div>
+    <div class="panel-header" id="project-detail-header">PROJECT DETAIL</div>
+    <div id="project-detail-content" 
+         style="display: flex; flex-direction: column; align-items: center; gap: 25px; max-width: 820px; margin: 0 auto; padding: 10px 20px;">
+      
+      <div style="position: relative; width: 100%; max-width: 720px; background: #1a0033; border: 4px solid #ff00ff; box-shadow: 0 0 50px #ff00ff; border-radius: 12px; overflow: hidden;">
+        <img id="project-detail-image" 
+             style="width: 100%; height: 420px; object-fit: contain; display: block; background: #0a001f;" 
+             alt="Project Screenshot" />
+        
+        <button id="project-prev-btn" 
+                style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); background: rgba(10,0,31,0.85); color: #00ffff; border: 3px solid #00ffff; font-size: 32px; width: 52px; height: 52px; border-radius: 50%; cursor: pointer; text-shadow: 0 0 15px #00ffff; z-index: 10;">←</button>
+        <button id="project-next-btn" 
+                style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); background: rgba(10,0,31,0.85); color: #00ffff; border: 3px solid #00ffff; font-size: 32px; width: 52px; height: 52px; border-radius: 50%; cursor: pointer; text-shadow: 0 0 15px #00ffff; z-index: 10;">→</button>
+        
+        <div id="project-image-counter" 
+             style="position: absolute; bottom: 12px; right: 18px; background: rgba(0,0,0,0.7); color: #ffff00; font-size: 14px; padding: 4px 12px; border-radius: 20px; text-shadow: 0 0 8px #ffff00; font-family: 'Courier New', monospace;">
+          1 / 1
+        </div>
+      </div>
+
+      <div id="project-detail-info" 
+           style="text-align: center; color: #00ffff; max-width: 700px; line-height: 1.6; font-size: 16px;">
+      </div>
+
+      <button id="project-link-btn" 
+              style="margin-top: 10px; padding: 14px 50px; font-size: 17px; font-weight: bold; background: #ff00ff; color: #fff; border: 3px solid #ffff00; border-radius: 10px; cursor: pointer; box-shadow: 0 0 25px #ff00ff; text-shadow: 0 0 10px #ffff00; transition: all 0.3s; font-family: 'Courier New', monospace; letter-spacing: 1px;">
+        🔗 VIEW SOURCE / GITHUB
+      </button>
+    </div>
+  </div>
+
+
+  <!-- Credits 面板 -->
+  <div id="credits-panel" class="panel">
+    <div class="close-btn" id="close-credits">✕</div>
+    <div class="panel-header">💳 CREDITS</div>
+    <div id="credits-content"></div>
+  </div>
+
+  <!-- 全畫面 CRT 掃描線 -->
+  <div id="scanlines"></div>
+
+  
+
+</body>
+</html>

@@ -4207,8 +4207,9 @@ void main() {
 
       <div class="section-title" style="color:#ff00ff; text-align:center;">TOOLS & OTHERS</div>
       ${t(`IT Technical Support & QA Testing`,44,`#00ff88`)}
-      ${t(`Big Data Analysis & AI / Deep Learning`,38,`#00ffff`)}
-      ${t(`Microsoft Office 365 + Photoshop + Davinci Resolve`,41,`#00ff88`)}
+      ${t(`Big Data Analysis & Vibe coding & Prompt Engineering`,38,`#00ffff`)}
+      ${t(`Microsoft Office 365 & Photoshop & Audacity & Davinci Resolve`,41,`#00ff88`)}
+      
 
       <div style="margin-top:25px; text-align:center; font-size:13px; color:#888;">
         Cantonese (Native) • Mandarin (Competent) • English (Intermediate) || Cyberpunk Neon Portfolio • 2026

@@ -4106,7 +4106,7 @@ void main() {
     <br>in a public library (Part-Time) & 136HR of IT Business Analyst Trainee. FYP & Project are related to the AI-Topics. 
     <br>Such as AI-Emotion Regulation, AIoT, Big Data Analytics, Image Process, etc. 
     <br><br>- Reliable, stable and eager to start a career as a Fresh Graduate Position.`,education:`
-    • 2022-2026 The Hong Kong Polytechnic University — BSc (Hons) Computer Science (WGPA 2.82/4.3)
+    • 2022-2026 The Hong Kong Polytechnic University — BSc (Hons) Computer Science (GPA 2.84/4.3)
     <br>• 2020-2022 Higher Diploma in Software Engineering (Distinction, CGPA 3.67/4.0)`,work:`
     • 2022 (Jun) – 2026 (Now) | Part-time Public Library Computer Technician – Manpower
     <br>  - Fixed technician problems (DNS host unknown error, missing license issues)

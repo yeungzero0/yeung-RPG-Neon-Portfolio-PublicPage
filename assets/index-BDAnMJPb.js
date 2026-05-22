@@ -4201,8 +4201,8 @@ void main() {
       ${t(`C++ / C# / Swift`,27,`#ff00ff`)}
 
       <div class="section-title" style="color:#ff00ff; text-align:center;">DATABASE & FRONTEND</div>
-      ${t(`HTML / CSS / JavaScript / JSON / Node.js`,54,`#ffff00`)}
-      ${t(`MySQL / JDBC `,41,`#00ff88`)}
+      ${t(`HTML / CSS / JavaScript / Three.js / JSON `,49,`#ffff00`)}
+      ${t(`MySQL / MongoDB / Firebase (NoSQL) `,41,`#00ff88`)}
       ${t(`JSP`,13,`#e21f1f`)}
 
       <div class="section-title" style="color:#ff00ff; text-align:center;">TOOLS & OTHERS</div>

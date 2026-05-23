@@ -4207,7 +4207,7 @@ void main() {
 
       <div class="section-title" style="color:#ff00ff; text-align:center;">TOOLS & OTHERS</div>
       ${t(`IT Technical Support & QA Testing`,44,`#00ff88`)}
-      ${t(`Big Data Analysis & Vibe coding & Prompt Engineering`,38,`#00ffff`)}
+      ${t(`Big Data Analysis & AI-assisted Development `,38,`#00ffff`)}
       ${t(`Microsoft Office 365 & Photoshop & Audacity & Davinci Resolve`,41,`#00ff88`)}
       
 
